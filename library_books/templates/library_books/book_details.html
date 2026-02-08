@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<div class="container">
+    <h1 class="mb-3">{{ book.title }}</h1>
+    <h5>Author: {{ book.author.name }}</h5>
+    <h6>Published Year: {{ book.published_year }}</h6>
+    <h6>ISBN: {{ book.isbn }}</h6>
+    <p class="mt-3">{{ book.description }}</p>
+
+    <a href="{% url 'book_list' %}" class="btn btn-primary mt-3">Back to Book List</a>
+</div>
+{% endblock %}
