@@ -50,7 +50,9 @@ python manage.py runserver
 
 Open the app in your browser:
 
-http://127.0.0.1:8000/library_books/
+http://127.0.0.1:8000/admin/  # for admin view
+http://127.0.0.1:8000/library_books/  # to view all library books in a table
+http://127.0.0.1:8000/library_books/1/ # or any other number
 
 Project Structure
 library_project/
