@@ -16,7 +16,7 @@ Tech Stack:
 
 Backend: Django 6.0
 
-Frontend: HTML, Bootstrap 5
+Frontend: HTML, Bootstrap 5, CSS
 
 Database: SQLite (default, can be replaced with PostgreSQL/MySQL)
 
