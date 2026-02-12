@@ -22,8 +22,6 @@ Database: SQLite (default, can be replaced with PostgreSQL/MySQL)
 
 Python version: 3.14
 
-Other libraries: (e.g., if you use Django REST framework, list here)
-
 Installation:
 
 Clone the repository:
